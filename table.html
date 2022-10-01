@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<title>table</title>
+
+<head>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        tr,
+        th,
+        td {
+            border: 2px solid blue;
+            border-radius: 10px;
+            padding: 3px;
+            text-align: center;
+        }
+        tr:hover {
+            background-color: bisque;
+        }
+        table {
+            border-spacing: 1px;
+        }
+    </style>
+
+<body>
+    <!-- vertical table -->
+    <table class="background">
+        <caption style="color:magenta ;"><b>Daily Activity</b></caption>
+        <tr>
+            <th>DATE</th>
+            <th>ACTION</th>
+            <th>REMARK</th>
+        </tr>
+        <tr>
+            <td>15-AUG</td>
+            <td>html</td>
+            <td>tag</td>
+        </tr>
+        <tr>
+            <td>16-AUG</td>
+            <td>css</td>
+            <td>link</td>
+        </tr>
+    </table>
+    <br>
+    <!-- horizontal table -->
+    <table>
+        <tr>
+            <th>DATE</th>
+            <td>15-AUG</td>
+            <td>16-AUG</td>
+            <td>17-AUG</td>
+        </tr>
+        <tr>
+            <th>ACTION</th>
+            <td>html</td>
+            <td>css</td>
+            <td>holiday</td>
+        </tr>
+        <tr>
+            <th>REMARK</th>
+            <td>tag</td>
+            <td>link</td>
+            <td>no work</td>
+        </tr>
+    </table><br>
+    <!-- colspan example -->
+    <table class="table3" style="border: 12px dashed;">
+        <tr>
+            <th>sr no.</th>
+            <th>Designation</th>
+            <th colspan="2">Name & Surname</th>
+            <th>age</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Sr.app.Engg</td>
+            <td>desai </td>
+            <td>nikunj </td>
+            <td>28 </td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Housewife</td>
+            <td>desai </td>
+            <td>jalpa </td>
+            <td>27 </td>
+        </tr>
+    </table>
+    <br>
+    <table class="background">
+        <tr>
+            <th>sr.no</th>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+            <td>4</td>
+            <td>5</td>
+            <td>6</td>
+        </tr>
+        <tr>
+            <th rowspan="2">name&surmane</th>
+            <td>desai</td>
+            <td>desai</td>
+            <td>desai</td>
+            <td>desai</td>
+            <td>desai</td>
+            <td>desai</td>
+        </tr>
+        <tr>
+            <td>nikunj</td>
+            <td>jalpa</td>
+            <td>jivika</td>
+            <td>saransh</td>
+            <td>laxmanbhai</td>
+            <td>devuben</td>
+        </tr>
+        <tr>
+            <th>age</th>
+            <td>28</td>
+            <td>27</td>
+            <td>3</td>
+            <td>1</td>
+            <td>58</td>
+            <td>56</td>
+        </tr>
+    </table>
+    <br>
+    <!-- <iframe src ="file:///T:/NIKUNJ%20FELIX%20IT/in.html" title="table to in">home3</iframe> -->
+    <!-- <iframe src ="https://www.w3schools.com" title="table to w3">home4</iframe> this is not working -->
+    <!-- <iframe src="a.htm"name="if1"></iframe>> -->
+    <!-- <a href="https://www.w3schools.com" target="if1">google</a> -->
+</body>
+</head>
+
+</html>
